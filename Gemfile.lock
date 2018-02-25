@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    hbase-ruby (1.2.0)
+      json
+    json (2.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  hbase-ruby
+
+BUNDLED WITH
+   1.16.1
