@@ -1,10 +1,10 @@
 require_relative '../http/constants'
 
 module Ghbase
-	module Orm
-		module Common
+  module Orm
+    module Common
 
-			include Ghbase::Http::Constants
+      include Ghbase::Http::Constants
 
       private
 
@@ -29,6 +29,6 @@ module Ghbase
         uri.query_values = params
         uri.query
       end
-		end
-	end
+    end
+  end
 end
